@@ -8,7 +8,7 @@ module.exports = (app) => {
 
         cadastrar(request, response) {
             //função cadastrar 
-            console.log('Rota /rastreamento chamada...');
+            console.log('Rota POST /rastreamento chamada...');
             console.log(`request.body: ${request.body}`);
             console.log(request.body);
 
